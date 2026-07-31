@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\WordpressBackupAutomation;
 if (! defined('ABSPATH')) { exit; }
-final class WordpressBackupAutomationFeature {
+final class Feature {
     private const OPTION = 'wordpress_backup_automation_enabled';
     private const SLUG = 'wordpress-backup-automation';
     private const TITLE = 'WordPress Backup Automation';
